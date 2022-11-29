@@ -35,10 +35,10 @@ export default {
 
 <style lang="scss" scoped>
 .cards {
+  margin: 20px;
+  padding: 20px;
+  height: 325px;
   background-color: #2E3A46;
-  padding: 1rem;
-  height: 22rem;
-  margin: 1rem;
   border-radius: 10px;
 }
 
@@ -50,9 +50,9 @@ export default {
 }
 
 .info {
-  color: gray;
   display: flex;
   flex-direction: column;
   text-align: center;
+  color: gray;
 }
 </style>
